@@ -44,7 +44,7 @@ export default () => {
             </div>
             <img
               src="/assets/hero-illu-alt.png"
-              alt="Vin og sjov"
+              alt="Repartidor"
               className="hidden md:block w-128 h-128"
             />
           </div>

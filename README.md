@@ -1,4 +1,4 @@
-# Dine CPH readme
+# DeliveryTacna readme
 
 ## Prerequisites
 

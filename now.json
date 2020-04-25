@@ -1,0 +1,10 @@
+{
+  "build": {
+    "env": {
+      "AIRTABLE_API_KEY": "@airtable_api_keys",
+      "AIRTABLE_BASE_KEY": "@airtable_base_keys",
+      "GOOGLE_MAPS_API_KEY": "@google_maps_api_key",
+      "RESTRICTED_GOOGLE_MAPS_API_KEY": "@restricted_google_maps_api_key"
+    }
+  }
+}

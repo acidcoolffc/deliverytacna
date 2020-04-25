@@ -1,0 +1,84 @@
+@import url('https://rsms.me/inter/inter.css');
+@import url('/optician/optician.css');
+
+/* purgecss start ignore */
+
+@tailwind base;
+
+/* Boilerplate */
+
+html {
+  @apply antialiased font-inter leading-tight text-navy smooth-scroll;
+  font-feature-settings: 'liga' 1;
+}
+@supports (font-variation-settings: normal) {
+  html {
+    @apply font-inter-var;
+  }
+}
+body {
+  @apply bg-sand-light m-0;
+}
+svg {
+  height: 1em;
+  width: auto;
+}
+svg * {
+  @apply stroke-current;
+}
+svg.stroke-none * {
+  stroke: none;
+}
+svg.fill * {
+  @apply fill-current;
+  stroke: none;
+}
+a {
+  @apply inline-block;
+}
+a,
+button {
+  @apply transition duration-150 ease-in-out;
+}
+a:focus,
+button:focus {
+  @apply outline-none shadow-outline;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-optician tracking-tight;
+}
+p {
+  @apply leading-normal;
+}
+p > a {
+  @apply underline;
+}
+
+@tailwind components;
+
+/* Custom components */
+
+.btn {
+  @apply font-medium leading-none text-center px-4 py-3;
+}
+.btn-primary {
+  @apply text-white bg-navy;
+}
+.btn-secondary {
+  @apply text-navy-light bg-teal;
+}
+
+/* purgecss end ignore */
+
+@tailwind utilities;
+
+/* Custom utilities */
+
+.smooth-scroll {
+  scroll-behavior: smooth;
+}

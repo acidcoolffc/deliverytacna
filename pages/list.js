@@ -246,7 +246,7 @@ export default ({ restaurants }) => {
           <Footer />
         </div>
       </>
-    )//listo
+    )//listo25/04
   return (
     <div className="w-full h-full flex items-center justify-center text-3xl text-pink">
       <LoadingSpinner />

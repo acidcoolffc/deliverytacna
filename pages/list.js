@@ -273,5 +273,10 @@ export async function getStaticProps() {
     records.sort(() => 0.5 - Math.random()).map(record => record.fields)
   )
 
-  return { props: { restaurants } }
+  return {
+
+    revalidate: 14400,
+    props: { restaurants } 
+
+  }
 }

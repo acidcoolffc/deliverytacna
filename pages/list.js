@@ -161,7 +161,7 @@ export default ({ restaurants }) => {
                 <p className="w-full md:w-auto font-medium m-1 mr-2">
                   {content.neighbourhoodLabel}
                 </p>
-                {['Cercado', 'Gregorio Albarracin', 'Pocollay', 'Alto de la Alianza', 'Ciudad Nueva','Calana','Pachia','Los Palos','Boca del Rio','CPM Leguia'].map(neighbourhood => {
+                {['Cercado', 'Gregorio Albarracin', 'Pocollay', 'Alto de la Alianza', 'Ciudad Nueva','Calana','Pachia','Los Palos','Boca del Rio','CPM Leguia', 'Para Chico', 'Natividad'].map(neighbourhood => {
                   const isChecked = filterNeighbourhoods.includes(neighbourhood)
                   const handleChange = () => {
                     if (isChecked) {

@@ -82,7 +82,7 @@ const ListItem = ({ restaurant, content }) => {
           {address && <p className="text-xs sm:text-sm mb-2">{address}</p>}
           {phone && <p className="text-sm mb-4">{phone + ' - ' + phonee}</p>}
           {description && (
-            <p className="max-w-xl text-sm sm:text-base mb-4">{description}</p>
+            <pre className="max-w-xl text-sm sm:text-base mb-4">{description}</pre>
           )}
           {offers && !!offers.length && (
             <ul className="-m-1 mb-6">

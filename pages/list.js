@@ -186,7 +186,7 @@ export default ({ restaurants }) => {
                 <p className="w-full md:w-auto font-medium m-1 mr-2">
                   {content.offersLabel}
                 </p>
-                {['Abarrotes', 'Bebidas sin Alcohol', 'Café', 'Carne','Comida Preparada','Courrier/Transporte','Cuidado Personal','Frutas','Frutos Secos','Gas','Huevos','Limpieza','Lácteos','Mascarillas, Gel etc','Mascotas','Medicamentos','Otros','Panadería','Pizza y Pastas','Pescados y Mariscos','Pollo','Postres y Dulces','Quesos y Embutidos','Saludable y Orgánico','Verduras','Vinos y Licores','Útiles Escolares y Oficina','Pollo a la Brasa','Sanguches'].map(offer => {
+                {['Abarrotes', 'Bebidas sin Alcohol', 'Café', 'Carne','Comida Preparada','Courrier/Transporte','Cuidado Personal','Frutas','Frutos Secos','Gas','Huevos','Limpieza','Lácteos','Mascarillas, Gel etc','Mascotas','Medicamentos','Otros','Panadería','Pizza y Pastas','Pescados y Mariscos','Pollo','Postres y Dulces','Quesos y Embutidos','Saludable y Orgánico','Verduras','Vinos y Licores','Útiles Escolares y Oficina','Pollo a la Brasa','Sanguches', 'Cilindrada', 'Carnes a la Brasa', 'Parrillas'].map(offer => {
                   const isChecked = filterOffers.includes(offer)
                   const handleChange = () => {
                     if (isChecked) {

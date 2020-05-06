@@ -50,7 +50,7 @@ export default () => {
       <div className="max-w-6xl flex items-center mx-auto">
         <div className="flex-auto flex items-center -mx-3">
           <Link href="/">
-            <a
+            <a alt="DeliveryTacna"
               onMouseOver={() => setIsLogoHovered(true)}
               onMouseLeave={() => setIsLogoHovered(false)}
               className="inline-flex items-center ml-3 sm:mr-6"

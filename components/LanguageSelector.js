@@ -21,12 +21,7 @@ export default function LanguageSelector() {
   const label = languages[opposite]
   return (
     <LanguageProvider>
-      <button
-        onClick={() => setLanguage(opposite)}
-        className="font-medium leading-normal"
-      >
-        Español
-      </button>
+
     </LanguageProvider>
   )
 }

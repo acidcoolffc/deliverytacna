@@ -43,7 +43,7 @@ export default () => {
               </div>
             </div>
             <img
-              src="/assets/hero-illu-alt.png"
+              src="/assets/hero-illu-alt.webp"
               alt="Repartidor"
               className="hidden md:block w-128 h-128"
             />

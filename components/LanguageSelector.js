@@ -25,7 +25,7 @@ export default function LanguageSelector() {
         onClick={() => setLanguage(opposite)}
         className="font-medium leading-normal"
       >
-        {label}
+        Español
       </button>
     </LanguageProvider>
   )

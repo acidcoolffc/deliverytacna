@@ -103,11 +103,11 @@ const ListItem = ({ restaurant, content }) => {
           {imagenes && !!imagenes.length && (
             <ul>
               {imagenes.map(imagen =>(
-                imagen.map(images =>(
+                
                   <pre>
-                    {images.url}
+                    {imagen[0].url}
                   </pre>
-                ))
+
               ))}
             </ul>
           )}

@@ -62,6 +62,8 @@ const ListItem = ({ restaurant, content }) => {
   const phone = restaurant.phone || undefined
   const phonee = restaurant.phonee || undefined
   const url = restaurant.url || undefined
+  const imagenes = restaurant.foto || undefined
+
   return (
     <li className="w-full md:w-1/2 p-3">
       <div className="relative h-full flex flex-col items-start border border-sand overflow-hidden p-4 sm:p-8 lg:px-12">
@@ -92,6 +94,17 @@ const ListItem = ({ restaurant, content }) => {
                   className="inline-block font-medium text-xs sm:text-sm bg-sand px-2 py-1 m-1"
                 >
                   {offer}
+                </li>
+              ))}
+            </ul>
+          )}
+        </div>
+        <div>
+          {imagenes && !!offers.length && (
+            <ul>
+              {imagenes.map(imagen =>(
+                <li>
+                  {imagen}
                 </li>
               ))}
             </ul>

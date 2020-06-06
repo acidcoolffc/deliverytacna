@@ -105,7 +105,7 @@ const ListItem = ({ restaurant, content }) => {
               {imagenes.map(imagen =>(
                 
                   <pre>
-                    {imagen[0].url}
+                    {imagen[1].url}
                   </pre>
 
               ))}

@@ -103,11 +103,11 @@ const ListItem = ({ restaurant, content }) => {
           {imagenes && !!imagenes.length && (
             <ul>
               {imagenes.map(imagen =>(
-                <img src={imagen.url} />
+                <img src={imagen.thumbnails.large.url} />
               ))}
             </ul>
           )}
-        </div>
+        </div><p></p>
         {url && (
           <a
             href={url.includes('http') ? url : 'https://' + url}
